@@ -1,0 +1,9 @@
+{
+  "tokenizer_class": "GemmaTokenizer",
+  "model_max_length": 4096,
+  "special_tokens_map": {
+    "bos_token": "<bos>",
+    "eos_token": "<eos>",
+    "unk_token": "<unk>"
+  }
+}

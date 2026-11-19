@@ -1,0 +1,10 @@
+{
+  "model_type": "medgemma",
+  "architectures": ["MedGemmaForConditionalGeneration"],
+  "model_name": "MedGemma 2B Mobile Lite",
+  "architecture": "Gemma-2-2B-IT Clinical (Q4_K_M Quantized)",
+  "download_source": "local-public-bundle",
+  "license": "Google Gemma Terms of Use / Apache 2.0 Open Weights",
+  "device_target": "browser-webgpu",
+  "quantization": "Q4_K_M"
+}

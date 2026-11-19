@@ -1,0 +1,10 @@
+{
+  "model_type": "medgemma",
+  "architectures": ["MedGemmaVisionEncoder"],
+  "model_name": "MedGemma 4B Standard Clinical",
+  "architecture": "MedGemma-4B-Clinical (Q4_K_S Quantized Multimodal)",
+  "download_source": "local-public-bundle",
+  "license": "Google Gemma Terms of Use / Apache 2.0 Open Weights",
+  "device_target": "browser-webgpu",
+  "quantization": "Q4_K_S"
+}

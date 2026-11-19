@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    { "id": "metformin", "type": "drug", "class": "biguanide" },
+    { "id": "insulin", "type": "interaction", "warning": "hypoglycemia risk" }
+  ],
+  "edges": [
+    { "source": "metformin", "target": "insulin", "risk": "moderate" }
+  ]
+}
