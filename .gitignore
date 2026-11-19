@@ -1,3 +1,4 @@
+# Node/React/Vite
 node_modules/
 build/
 dist/
@@ -6,3 +7,27 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Flutter
+apps/mobile/build/
+apps/mobile/.dart_tool/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/.packages
+apps/mobile/pubspec.lock
+*.iml
+.idea/
+.vscode/
+*.jks
+*.keystore
+*.dart_tool/
+
+# Android
+apps/mobile/android/app/build/
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+apps/mobile/android/gradle/wrapper/gradle-wrapper.jar
+
+# Generated data (optional - keep if you want to track changes)
+# apps/mobile/assets/data/medications.json
+# apps/mobile/assets/data/ayurveda.json

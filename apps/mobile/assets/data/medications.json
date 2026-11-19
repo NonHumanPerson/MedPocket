@@ -1,0 +1,1197 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-19T17:44:39.927272Z",
+  "sourceReferences": {
+    "nlem_2022": "National List of Essential Medicines (NLEM) 2022, Ministry of Health & Family Welfare, Govt of India",
+    "who_eml_2023": "WHO Model List of Essential Medicines, 23rd List (2023)",
+    "ip_2018": "Indian Pharmacopoeia 2018, Indian Pharmacopoeia Commission",
+    "dailymed": "DailyMed, U.S. National Library of Medicine (public domain)",
+    "medlineplus": "MedlinePlus, U.S. National Library of Medicine (public domain)",
+    "atc_ddd": "ATC/DDD Index, WHO Collaborating Centre for Drug Statistics Methodology",
+    "rxnorm": "RxNorm, U.S. National Library of Medicine (public domain)",
+    "api_vol_1": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1-5, Ministry of AYUSH",
+    "api_vol_2": "Ayurvedic Pharmacopoeia of India, Part II, Vol. 1-3, Ministry of AYUSH",
+    "afi": "Ayurvedic Formulary of India, Part I & II, Ministry of AYUSH",
+    "ccras": "Central Council for Research in Ayurvedic Sciences (CCRAS) publications",
+    "pubmed": "PubMed/MEDLINE indexed literature"
+  },
+  "disclaimer": "This data is compiled from authoritative public sources for informational/educational purposes only. It does not constitute medical advice. Consult qualified healthcare professionals for medical decisions. Ayurvedic entries are literature-sourced and pending expert review — NOT verified medical recommendations.",
+  "data": [
+    {
+      "id": "metformin",
+      "genericName": "Metformin Hydrochloride",
+      "brandNames": [
+        "Glucophage",
+        "Glycomet",
+        "Obimet",
+        "Metlong",
+        "Metformin"
+      ],
+      "therapeuticClass": "Biguanide Antidiabetic Agent",
+      "primaryUses": [
+        "Type 2 Diabetes Mellitus",
+        "Insulin Resistance",
+        "PCOS (Off-label)"
+      ],
+      "mechanismOfAction": "Decreases hepatic glucose production (gluconeogenesis), decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization.",
+      "standardDosage": "500 mg to 1000 mg twice daily with meals (max 2550 mg/day)",
+      "howToTake": {
+        "foodRequirement": "with_food",
+        "instructions": "Take with meals to minimize stomach upset and gastrointestinal distress. Swallow extended-release tablets whole; do not crush or chew.",
+        "bestTimeOfDay": "Breakfast and dinner",
+        "missedDoseAdvice": "Take as soon as remembered with food. If it is almost time for your next dose, skip the missed dose. Never double up doses."
+      },
+      "sideEffects": {
+        "mild": [
+          "Nausea or upset stomach",
+          "Mild diarrhea",
+          "Metallic taste in mouth",
+          "Abdominal bloating"
+        ],
+        "moderate": [
+          "Persistent diarrhea lasting >1 week",
+          "Loss of appetite",
+          "Decreased vitamin B12 levels (after long-term use)"
+        ],
+        "urgent": [
+          "Lactic Acidosis (rare but life-threatening): Extreme weakness, unexplained muscle pain, severe trouble breathing, unusual coldness, slow or irregular heartbeat",
+          "Severe allergic reaction (hives, facial or throat swelling)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Risk of Lactic Acidosis, especially in patients with severe renal impairment, sepsis, or acute congestive heart failure.",
+        "alcoholWarning": "Avoid excessive alcohol consumption; alcohol potentiates the effect of metformin on lactate metabolism and increases lactic acidosis risk.",
+        "foodWarnings": [
+          "Avoid excessive binge drinking",
+          "Ensure adequate hydration during hot weather or illness"
+        ],
+        "pregnancyCaution": "Commonly considered safe under specialist endocrinologist supervision; monitor blood glucose closely."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Iodinated Radiocontrast Agents",
+          "severity": "Contraindicated",
+          "effect": "Acute renal failure and severe lactic acidosis accumulation",
+          "recommendation": "Withhold metformin prior to or at time of iodinated contrast procedure, and withhold for 48 hours post-procedure until renal function is confirmed normal."
+        },
+        {
+          "interactingDrug": "Furosemide",
+          "severity": "Moderate",
+          "effect": "Increases metformin blood concentrations while decreasing furosemide concentrations",
+          "recommendation": "Monitor blood glucose closely; dosage adjustment may be needed."
+        },
+        {
+          "interactingDrug": "Cimetidine",
+          "severity": "Moderate",
+          "effect": "Inhibits renal tubular clearance of metformin, increasing toxicity risk",
+          "recommendation": "Consider alternative H2 blockers like famotidine."
+        }
+      ],
+      "atcCodes": [
+        "A10BA02"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "lisinopril",
+      "genericName": "Lisinopril",
+      "brandNames": [
+        "Prinivil",
+        "Zestril",
+        "Lisinopril",
+        "Lipril",
+        "Lisodur"
+      ],
+      "therapeuticClass": "ACE (Angiotensin-Converting Enzyme) Inhibitor",
+      "primaryUses": [
+        "Hypertension (High Blood Pressure)",
+        "Heart Failure",
+        "Post-Myocardial Infarction Survival"
+      ],
+      "mechanismOfAction": "Inhibits the enzyme converting angiotensin I to angiotensin II, a potent vasoconstrictor. Decreases systemic vascular resistance, reduces blood pressure, and lowers cardiac workload while preserving renal blood flow in diabetic nephropathy.",
+      "standardDosage": "10 mg to 40 mg once daily",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Can be taken with or without food at the same time each day. Drink plenty of water unless on fluid restrictions.",
+        "bestTimeOfDay": "Morning or bedtime (consistent daily time)",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip and resume regular schedule. Do not take two doses at once."
+      },
+      "sideEffects": {
+        "mild": [
+          "Dry, persistent hacking cough (ACE cough)",
+          "Mild dizziness when standing up",
+          "Headache"
+        ],
+        "moderate": [
+          "Hyperkalemia (high blood potassium)",
+          "Moderate hypotension",
+          "Elevated serum creatinine"
+        ],
+        "urgent": [
+          "Angioedema (life-threatening swelling of lips, tongue, throat, or airway)",
+          "Severe dizziness, fainting, or loss of consciousness",
+          "Sudden decrease in urination or signs of acute kidney failure"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Fetal Toxicity: When pregnancy is detected, discontinue Lisinopril immediately. Can cause fetal harm and death during 2nd and 3rd trimesters.",
+        "alcoholWarning": "Alcohol can increase blood-pressure lowering effects, leading to pronounced dizziness or fainting.",
+        "foodWarnings": [
+          "Avoid potassium-based salt substitutes without consulting your physician",
+          "Do not take high-dose potassium supplements"
+        ],
+        "pregnancyCaution": "Contraindicated in pregnancy due to severe risk of fetal oligohydramnios and skull hypoplasia."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Potassium Supplements / Potassium-Sparing Diuretics",
+          "severity": "Severe",
+          "effect": "Risk of life-threatening hyperkalemia",
+          "recommendation": "Monitor serum potassium closely; avoid combination if possible."
+        },
+        {
+          "interactingDrug": "NSAIDs (Ibuprofen, Naproxen)",
+          "severity": "Moderate",
+          "effect": "Reduced antihypertensive effect; risk of renal impairment",
+          "recommendation": "Monitor blood pressure and renal function; use shortest duration possible."
+        },
+        {
+          "interactingDrug": "Lithium",
+          "severity": "Severe",
+          "effect": "Increased lithium levels and toxicity risk",
+          "recommendation": "Avoid combination; if necessary, monitor lithium levels frequently."
+        }
+      ],
+      "atcCodes": [
+        "C09AA03"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "atorvastatin",
+      "genericName": "Atorvastatin Calcium",
+      "brandNames": [
+        "Lipitor",
+        "Atorva",
+        "Storvas",
+        "Atolip",
+        "Torpit"
+      ],
+      "therapeuticClass": "HMG-CoA Reductase Inhibitor (Statin)",
+      "primaryUses": [
+        "Hypercholesterolemia",
+        "Mixed Dyslipidemia",
+        "Cardiovascular Risk Reduction",
+        "Familial Hypercholesterolemia"
+      ],
+      "mechanismOfAction": "Competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis, reducing hepatic cholesterol synthesis and upregulating LDL receptors, leading to increased LDL clearance.",
+      "standardDosage": "10 mg to 80 mg once daily",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take once daily at the same time, with or without food. Evening dosing may be slightly more effective for cholesterol synthesis.",
+        "bestTimeOfDay": "Evening preferred, but consistency matters more",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip and resume regular schedule."
+      },
+      "sideEffects": {
+        "mild": [
+          "Muscle aches (myalgia)",
+          "Mild nausea",
+          "Headache",
+          "Mild constipation or diarrhea"
+        ],
+        "moderate": [
+          "Elevated liver enzymes (ALT/AST)",
+          "Persistent muscle pain or weakness",
+          "New-onset diabetes risk (with high doses)"
+        ],
+        "urgent": [
+          "Rhabdomyolysis (rare but life-threatening): Severe muscle pain, dark urine, weakness, fever",
+          "Severe liver injury: Jaundice, dark urine, persistent nausea, right upper quadrant pain",
+          "Severe allergic reaction"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Limit alcohol intake; excessive alcohol increases risk of liver injury.",
+        "foodWarnings": [
+          "Avoid grapefruit and grapefruit juice (increases statin levels)",
+          "Limit high-fat meals for optimal effect"
+        ],
+        "pregnancyCaution": "Contraindicated in pregnancy (X category); discontinue if pregnancy occurs."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Gemfibrozil",
+          "severity": "Severe",
+          "effect": "Markedly increased risk of rhabdomyolysis",
+          "recommendation": "Avoid combination; use fenofibrate if fibrate needed."
+        },
+        {
+          "interactingDrug": "Cyclosporine",
+          "severity": "Severe",
+          "effect": "Increased atorvastatin exposure and myopathy risk",
+          "recommendation": "Limit atorvastatin to 10 mg/day; monitor closely."
+        },
+        {
+          "interactingDrug": "Clarithromycin / Itraconazole",
+          "severity": "Moderate",
+          "effect": "CYP3A4 inhibition increases statin levels",
+          "recommendation": "Consider temporary statin hold or dose reduction; monitor for muscle symptoms."
+        }
+      ],
+      "atcCodes": [
+        "C10AA05"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "amoxicillin",
+      "genericName": "Amoxicillin Trihydrate",
+      "brandNames": [
+        "Amoxil",
+        "Mox",
+        "Amoxicillin",
+        "Novamox",
+        "Moxikind"
+      ],
+      "therapeuticClass": "Penicillin Antibiotic (Broad-spectrum)",
+      "primaryUses": [
+        "Respiratory Tract Infections",
+        "Ear/Nose/Throat Infections",
+        "Urinary Tract Infections",
+        "Skin/Soft Tissue Infections",
+        "H. pylori Eradication (combination)"
+      ],
+      "mechanismOfAction": "Inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), leading to cell lysis and death. Active against many Gram-positive and some Gram-negative organisms.",
+      "standardDosage": "500 mg every 8 hours or 875 mg every 12 hours (adults); pediatric dosing weight-based",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take with or without food. If stomach upset occurs, take with food. Complete the full prescribed course even if symptoms improve.",
+        "bestTimeOfDay": "Evenly spaced intervals (e.g., every 8 hours)",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip and resume regular schedule."
+      },
+      "sideEffects": {
+        "mild": [
+          "Nausea",
+          "Diarrhea",
+          "Mild rash",
+          "Yeast infection (oral/vaginal)"
+        ],
+        "moderate": [
+          "Persistent diarrhea (C. difficile risk)",
+          "Worsening rash",
+          "Vaginal itching/discharge"
+        ],
+        "urgent": [
+          "Severe allergic reaction (anaphylaxis): Hives, swelling, difficulty breathing, dizziness",
+          "Severe skin reaction (Stevens-Johnson): Blistering, peeling, fever",
+          "Severe watery/bloody diarrhea (C. difficile)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol does not directly interact but may worsen side effects like stomach upset.",
+        "foodWarnings": [],
+        "pregnancyCaution": "Generally considered safe (Category B); widely used in pregnancy when indicated."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Methotrexate",
+          "severity": "Severe",
+          "effect": "Decreased renal clearance of methotrexate, increasing toxicity",
+          "recommendation": "Avoid concurrent use; monitor methotrexate levels if unavoidable."
+        },
+        {
+          "interactingDrug": "Oral Contraceptives",
+          "severity": "Minor",
+          "effect": "Theoretical reduction in contraceptive efficacy",
+          "recommendation": "Use backup contraception during treatment and for 7 days after."
+        },
+        {
+          "interactingDrug": "Warfarin",
+          "severity": "Moderate",
+          "effect": "May increase INR and bleeding risk",
+          "recommendation": "Monitor INR closely during and after antibiotic course."
+        }
+      ],
+      "atcCodes": [
+        "J01CA04"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "paracetamol",
+      "genericName": "Paracetamol (Acetaminophen)",
+      "brandNames": [
+        "Crocin",
+        "Calpol",
+        "Dolo 650",
+        "Pacimol",
+        "T-98",
+        "Paracetamol"
+      ],
+      "therapeuticClass": "Analgesic & Antipyretic (Non-NSAID)",
+      "primaryUses": [
+        "Mild to Moderate Pain",
+        "Fever",
+        "Headache",
+        "Muscle Aches",
+        "Post-vaccination Fever"
+      ],
+      "mechanismOfAction": "Central COX inhibition (weak peripheral COX inhibition); reduces prostaglandin synthesis in CNS, raising pain threshold and acting on hypothalamic heat-regulating center for antipyresis.",
+      "standardDosage": "500-1000 mg every 4-6 hours (max 4000 mg/day adults); pediatric 10-15 mg/kg/dose",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take with or without food. Do not exceed maximum daily dose. Check other medications for paracetamol content to avoid accidental overdose.",
+        "bestTimeOfDay": "As needed for pain/fever",
+        "missedDoseAdvice": "Take as soon as remembered if needed. Do not double dose."
+      },
+      "sideEffects": {
+        "mild": [
+          "Rare at therapeutic doses",
+          "Mild nausea"
+        ],
+        "moderate": [
+          "Allergic skin reactions",
+          "Thrombocytopenia (rare)"
+        ],
+        "urgent": [
+          "Hepatotoxicity (overdose): Nausea, vomiting, abdominal pain, jaundice, confusion - MEDICAL EMERGENCY",
+          "Severe allergic reaction (rare): Swelling, difficulty breathing"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Hepatotoxicity Risk: Do not exceed 4 g/day (adults). Chronic alcohol users and those with liver disease are at higher risk even at lower doses.",
+        "alcoholWarning": "Chronic alcohol use significantly increases risk of liver damage. Avoid or limit alcohol.",
+        "foodWarnings": [],
+        "pregnancyCaution": "Generally considered safe at recommended doses throughout pregnancy; first-line for fever/pain in pregnancy."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Warfarin",
+          "severity": "Moderate",
+          "effect": "Chronic high-dose paracetamol may increase INR",
+          "recommendation": "Monitor INR if using paracetamol regularly (>2 g/day for >3 days)."
+        },
+        {
+          "interactingDrug": "Carbamazepine / Phenytoin",
+          "severity": "Moderate",
+          "effect": "Enzyme induction may increase hepatotoxic metabolite formation",
+          "recommendation": "Use with caution; monitor liver function if chronic use."
+        },
+        {
+          "interactingDrug": "Isoniazid",
+          "severity": "Moderate",
+          "effect": "Increased hepatotoxicity risk",
+          "recommendation": "Monitor liver function; avoid if possible."
+        }
+      ],
+      "atcCodes": [
+        "N02BE01"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "omeprazole",
+      "genericName": "Omeprazole",
+      "brandNames": [
+        "Prilosec",
+        "Omez",
+        "Omecip",
+        "Omeprazole",
+        "Losec"
+      ],
+      "therapeuticClass": "Proton Pump Inhibitor (PPI)",
+      "primaryUses": [
+        "GERD (Acid Reflux)",
+        "Peptic Ulcer Disease",
+        "H. pylori Eradication (combination)",
+        "Zollinger-Ellison Syndrome",
+        "NSAID-induced Ulcer Prophylaxis"
+      ],
+      "mechanismOfAction": "Irreversibly inhibits H+/K+-ATPase (proton pump) in gastric parietal cells, blocking final step of acid secretion. Provides prolonged acid suppression.",
+      "standardDosage": "20-40 mg once daily before breakfast",
+      "howToTake": {
+        "foodRequirement": "empty_stomach",
+        "instructions": "Take 30-60 minutes before breakfast. Swallow capsule whole; do not crush or chew. For H. pylori, combine with antibiotics as prescribed.",
+        "bestTimeOfDay": "Morning, before breakfast",
+        "missedDoseAdvice": "Take as soon as remembered before a meal. If close to next dose, skip."
+      },
+      "sideEffects": {
+        "mild": [
+          "Headache",
+          "Nausea",
+          "Diarrhea",
+          "Abdominal pain",
+          "Flatulence"
+        ],
+        "moderate": [
+          "Vitamin B12 deficiency (long-term)",
+          "Hypomagnesemia (long-term)",
+          "Fundic gland polyps (long-term)"
+        ],
+        "urgent": [
+          "Severe allergic reaction",
+          "Clostridioides difficile infection: Severe watery/bloody diarrhea",
+          "Acute interstitial nephritis: Flank pain, fever, rash",
+          "Severe cutaneous adverse reactions (rare)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol may worsen GERD symptoms; no direct drug interaction.",
+        "foodWarnings": [
+          "Take before meals for optimal effect"
+        ],
+        "pregnancyCaution": "Generally considered safe (Category C); use if benefits outweigh risks."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Clopidogrel",
+          "severity": "Moderate",
+          "effect": "Omeprazole inhibits CYP2C19, reducing clopidogrel activation",
+          "recommendation": "Consider pantoprazole or H2 blocker if PPI needed with clopidogrel."
+        },
+        {
+          "interactingDrug": "Methotrexate (high-dose)",
+          "severity": "Severe",
+          "effect": "Reduced methotrexate clearance, increasing toxicity",
+          "recommendation": "Avoid PPIs during high-dose methotrexate; monitor levels."
+        },
+        {
+          "interactingDrug": "Digoxin",
+          "severity": "Minor",
+          "effect": "Increased digoxin absorption (gastric pH effect)",
+          "recommendation": "Monitor digoxin levels if initiating/stopping PPI."
+        }
+      ],
+      "atcCodes": [
+        "A02BC01"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "metoprolol",
+      "genericName": "Metoprolol Tartrate/Succinate",
+      "brandNames": [
+        "Lopressor",
+        "Toprol XL",
+        "Metolar",
+        "Betaloc",
+        "Metoprolol"
+      ],
+      "therapeuticClass": "Beta-1 Selective Blocker",
+      "primaryUses": [
+        "Hypertension",
+        "Angina Pectoris",
+        "Heart Failure (succinate)",
+        "Post-MI",
+        "Arrhythmias"
+      ],
+      "mechanismOfAction": "Selectively blocks beta-1 adrenergic receptors in the heart, reducing heart rate, contractility, and conduction velocity, thereby lowering myocardial oxygen demand and blood pressure.",
+      "standardDosage": "Tartrate: 50-100 mg twice daily; Succinate ER: 25-200 mg once daily",
+      "howToTake": {
+        "foodRequirement": "with_food",
+        "instructions": "Take with or immediately after meals to enhance absorption. Do not stop abruptly; taper over 1-2 weeks.",
+        "bestTimeOfDay": "Morning and evening (tartrate) or morning (succinate ER)",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip. Do not double dose."
+      },
+      "sideEffects": {
+        "mild": [
+          "Fatigue",
+          "Dizziness",
+          "Bradycardia",
+          "Cold extremities",
+          "Mild depression"
+        ],
+        "moderate": [
+          "Symptomatic bradycardia (<50 bpm)",
+          "Hypotension",
+          "Worsening heart failure (initially)",
+          "Erectile dysfunction"
+        ],
+        "urgent": [
+          "Severe bradycardia or heart block",
+          "Cardiogenic shock",
+          "Severe hypotension with syncope",
+          "Bronchospasm (in susceptible asthmatics)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol potentiates hypotensive effect; may cause dizziness/fainting.",
+        "foodWarnings": [],
+        "pregnancyCaution": "Category C; use if benefits outweigh risks. Neonatal bradycardia/hypoglycemia reported."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Verapamil / Diltiazem",
+          "severity": "Severe",
+          "effect": "Additive negative chronotropic/ionotropic effects - severe bradycardia, heart block, hypotension",
+          "recommendation": "Avoid combination; if needed, monitor ECG and hemodynamics closely."
+        },
+        {
+          "interactingDrug": "Insulin / Oral Hypoglycemics",
+          "severity": "Moderate",
+          "effect": "Masks tachycardia warning sign of hypoglycemia",
+          "recommendation": "Educate patient on other hypoglycemia symptoms (sweating, tremor); monitor glucose."
+        },
+        {
+          "interactingDrug": "NSAIDs",
+          "severity": "Minor",
+          "effect": "May attenuate antihypertensive effect",
+          "recommendation": "Monitor blood pressure; adjust dose if needed."
+        }
+      ],
+      "atcCodes": [
+        "C07AB02"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "amlodipine",
+      "genericName": "Amlodipine Besylate",
+      "brandNames": [
+        "Norvasc",
+        "Amlong",
+        "Amdocal",
+        "Amlopin",
+        "Stamlo"
+      ],
+      "therapeuticClass": "Dihydropyridine Calcium Channel Blocker",
+      "primaryUses": [
+        "Hypertension",
+        "Chronic Stable Angina",
+        "Vasospastic Angina (Prinzmetal)"
+      ],
+      "mechanismOfAction": "Inhibits calcium ion influx through L-type calcium channels in vascular smooth muscle and cardiac muscle, causing vasodilation and reduced peripheral vascular resistance.",
+      "standardDosage": "5-10 mg once daily",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take once daily at the same time, with or without food. Swallow whole.",
+        "bestTimeOfDay": "Morning or evening (consistent)",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip."
+      },
+      "sideEffects": {
+        "mild": [
+          "Peripheral edema (ankle swelling)",
+          "Headache",
+          "Flushing",
+          "Dizziness",
+          "Palpitations"
+        ],
+        "moderate": [
+          "Significant edema requiring dose reduction",
+          "Gingival hyperplasia (rare)",
+          "Mood changes"
+        ],
+        "urgent": [
+          "Severe hypotension with syncope",
+          "Worsening angina or MI (rare, on initiation/rapid titration)",
+          "Severe allergic reaction"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol may potentiate hypotensive effect and dizziness.",
+        "foodWarnings": [
+          "Avoid grapefruit juice (increases amlodipine levels)"
+        ],
+        "pregnancyCaution": "Category C; use if benefits outweigh risks. Limited human data."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Simvastatin",
+          "severity": "Moderate",
+          "effect": "Amlodipine weakly inhibits CYP3A4, increasing simvastatin exposure",
+          "recommendation": "Limit simvastatin to 20 mg/day with amlodipine."
+        },
+        {
+          "interactingDrug": "Cyclosporine / Tacrolimus",
+          "severity": "Moderate",
+          "effect": "Increased immunosuppressant levels",
+          "recommendation": "Monitor levels; dose adjustment may be needed."
+        },
+        {
+          "interactingDrug": "Other Antihypertensives",
+          "severity": "Minor",
+          "effect": "Additive hypotensive effect",
+          "recommendation": "Monitor blood pressure; titrate carefully."
+        }
+      ],
+      "atcCodes": [
+        "C08CA01"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "hydrochlorothiazide",
+      "genericName": "Hydrochlorothiazide (HCTZ)",
+      "brandNames": [
+        "Microzide",
+        "Aquazide",
+        "HCTZ",
+        "Diupres",
+        "Hydrochlorothiazide"
+      ],
+      "therapeuticClass": "Thiazide Diuretic",
+      "primaryUses": [
+        "Hypertension",
+        "Edema (Heart Failure, Liver Cirrhosis, Renal Disease)",
+        "Nephrolithiasis (Calcium Stones)"
+      ],
+      "mechanismOfAction": "Inhibits Na+/Cl- cotransporter in the distal convoluted tubule, increasing sodium, chloride, and water excretion. Reduces plasma volume and vascular resistance.",
+      "standardDosage": "12.5-50 mg once daily",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take in the morning to avoid nocturia. Take with food if stomach upset occurs.",
+        "bestTimeOfDay": "Morning",
+        "missedDoseAdvice": "Take as soon as remembered. If afternoon, skip to avoid nocturia."
+      },
+      "sideEffects": {
+        "mild": [
+          "Increased urination",
+          "Mild dizziness",
+          "Headache",
+          "Photosensitivity",
+          "Mild electrolyte imbalance"
+        ],
+        "moderate": [
+          "Hypokalemia",
+          "Hyponatremia",
+          "Hyperuricemia/gout flare",
+          "Hyperglycemia",
+          "Erectile dysfunction"
+        ],
+        "urgent": [
+          "Severe electrolyte imbalance (severe hypokalemia: arrhythmia risk)",
+          "Acute kidney injury",
+          "Severe allergic reaction",
+          "Pancreatitis (rare)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol potentiates hypotensive effect and dizziness.",
+        "foodWarnings": [
+          "Ensure adequate potassium intake (fruits/vegetables) unless restricted"
+        ],
+        "pregnancyCaution": "Category B; generally avoided in pregnancy unless essential (reduces placental perfusion)."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Lithium",
+          "severity": "Severe",
+          "effect": "Decreased lithium clearance, leading to toxicity",
+          "recommendation": "Avoid combination; if necessary, monitor lithium levels weekly."
+        },
+        {
+          "interactingDrug": "Digoxin",
+          "severity": "Moderate",
+          "effect": "Hypokalemia increases digoxin toxicity risk",
+          "recommendation": "Monitor potassium and digoxin levels; supplement potassium if needed."
+        },
+        {
+          "interactingDrug": "NSAIDs",
+          "severity": "Moderate",
+          "effect": "Reduced diuretic and antihypertensive effect; risk of renal impairment",
+          "recommendation": "Monitor renal function and blood pressure; avoid chronic NSAID use."
+        }
+      ],
+      "atcCodes": [
+        "C03AA03"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "ibuprofen",
+      "genericName": "Ibuprofen",
+      "brandNames": [
+        "Brufen",
+        "Combiflam",
+        "Ibugesic",
+        "Ibuprofen",
+        "Brufen"
+      ],
+      "therapeuticClass": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+      "primaryUses": [
+        "Pain (Mild-Moderate)",
+        "Inflammation",
+        "Fever",
+        "Dysmenorrhea",
+        "Arthritis",
+        "Migraine"
+      ],
+      "mechanismOfAction": "Non-selective COX-1 and COX-2 inhibition, reducing prostaglandin synthesis, thereby reducing pain, inflammation, and fever.",
+      "standardDosage": "200-400 mg every 4-6 hours (max 1200 mg/day OTC, 3200 mg/day prescription)",
+      "howToTake": {
+        "foodRequirement": "with_food",
+        "instructions": "Take with food or milk to reduce GI irritation. Use lowest effective dose for shortest duration.",
+        "bestTimeOfDay": "With meals",
+        "missedDoseAdvice": "Take as soon as remembered if needed. Do not double dose."
+      },
+      "sideEffects": {
+        "mild": [
+          "Heartburn",
+          "Nausea",
+          "Dyspepsia",
+          "Dizziness",
+          "Headache"
+        ],
+        "moderate": [
+          "Gastritis/ulcer",
+          "Elevated liver enzymes",
+          "Fluid retention/edema",
+          "Hypertension"
+        ],
+        "urgent": [
+          "GI bleeding: Black/tarry stools, vomiting blood",
+          "Renal failure: Decreased urine, swelling, fatigue",
+          "Cardiovascular events: Chest pain, shortness of breath, stroke symptoms",
+          "Severe allergic reaction (including asthma exacerbation)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Cardiovascular Thrombotic Events: NSAIDs increase risk of serious CV thrombotic events, MI, stroke. GI Risk: Increased risk of serious GI events including bleeding, ulceration, perforation.",
+        "alcoholWarning": "Alcohol increases risk of GI bleeding and liver toxicity.",
+        "foodWarnings": [
+          "Take with food/milk"
+        ],
+        "pregnancyCaution": "Avoid in 3rd trimester (premature ductus arteriosus closure). Category C (1st/2nd), D (3rd)."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Warfarin / Anticoagulants",
+          "severity": "Severe",
+          "effect": "Additive bleeding risk (antiplatelet + anticoagulant + GI irritation)",
+          "recommendation": "Avoid combination; if essential, monitor INR closely and consider PPI."
+        },
+        {
+          "interactingDrug": "ACE Inhibitors / ARBs",
+          "severity": "Moderate",
+          "effect": "Reduced antihypertensive effect; risk of renal impairment",
+          "recommendation": "Monitor blood pressure and renal function; avoid chronic use."
+        },
+        {
+          "interactingDrug": "Methotrexate",
+          "severity": "Severe",
+          "effect": "Decreased methotrexate clearance, increasing toxicity",
+          "recommendation": "Avoid concurrent use."
+        }
+      ],
+      "atcCodes": [
+        "M01AE01"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "azithromycin",
+      "genericName": "Azithromycin Dihydrate",
+      "brandNames": [
+        "Zithromax",
+        "Azithral",
+        "Azee",
+        "Azibact",
+        "Zady"
+      ],
+      "therapeuticClass": "Macrolide Antibiotic",
+      "primaryUses": [
+        "Respiratory Infections",
+        "Skin/Soft Tissue Infections",
+        "Genital Infections (Chlamydia)",
+        "Typhoid Fever",
+        "MAC Prophylaxis (HIV)"
+      ],
+      "mechanismOfAction": "Binds 50S ribosomal subunit, inhibiting bacterial protein synthesis. Concentrates in tissues with long half-life allowing short-course therapy.",
+      "standardDosage": "500 mg day 1, then 250 mg daily x 4 days (or 500 mg x 3 days); single 1 g for chlamydia",
+      "howToTake": {
+        "foodRequirement": "empty_stomach",
+        "instructions": "Take 1 hour before or 2 hours after food. If GI upset, may take with food. Complete full course.",
+        "bestTimeOfDay": "Same time daily",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip."
+      },
+      "sideEffects": {
+        "mild": [
+          "Nausea",
+          "Diarrhea",
+          "Abdominal pain",
+          "Headache",
+          "Taste disturbance"
+        ],
+        "moderate": [
+          "QT prolongation (ECG changes)",
+          "Hepatotoxicity",
+          "C. difficile diarrhea"
+        ],
+        "urgent": [
+          "Severe allergic reaction (anaphylaxis)",
+          "Torsades de pointes (QT prolongation with risk factors)",
+          "Severe hepatotoxicity: Jaundice, dark urine, RUQ pain",
+          "Infantile hypertrophic pyloric stenosis (in neonates)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "QT Prolongation: Risk of torsades de pointes. Avoid in patients with known QT prolongation, hypokalemia, hypomagnesemia, or on other QT-prolonging drugs.",
+        "alcoholWarning": "No direct interaction; alcohol may worsen GI side effects.",
+        "foodWarnings": [
+          "Take on empty stomach for optimal absorption"
+        ],
+        "pregnancyCaution": "Category B; generally considered safe when indicated."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Warfarin",
+          "severity": "Moderate",
+          "effect": "May increase INR and bleeding risk",
+          "recommendation": "Monitor INR during and after azithromycin course."
+        },
+        {
+          "interactingDrug": "Digoxin",
+          "severity": "Moderate",
+          "effect": "Increased digoxin levels (P-gp inhibition)",
+          "recommendation": "Monitor digoxin levels."
+        },
+        {
+          "interactingDrug": "Antacids (Al/Mg)",
+          "severity": "Minor",
+          "effect": "Reduced azithromycin absorption",
+          "recommendation": "Separate by 2 hours."
+        }
+      ],
+      "atcCodes": [
+        "J01FA10"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "cetirizine",
+      "genericName": "Cetirizine Hydrochloride",
+      "brandNames": [
+        "Zyrtec",
+        "Cetzine",
+        "Alzer",
+        "Cetirizine",
+        "Okacet"
+      ],
+      "therapeuticClass": "Second-Generation H1 Antihistamine",
+      "primaryUses": [
+        "Allergic Rhinitis",
+        "Chronic Urticaria",
+        "Allergic Conjunctivitis",
+        "Angioedema",
+        "Insect Bite Reactions"
+      ],
+      "mechanismOfAction": "Selective peripheral H1 receptor antagonist; minimal CNS penetration causing less sedation than first-generation antihistamines.",
+      "standardDosage": "10 mg once daily (5 mg for mild symptoms); pediatric 2.5-5 mg",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take once daily, with or without food. Can be taken at night if drowsiness occurs.",
+        "bestTimeOfDay": "Evening or morning",
+        "missedDoseAdvice": "Take as soon as remembered. If close to next dose, skip."
+      },
+      "sideEffects": {
+        "mild": [
+          "Somnolence (10-14%)",
+          "Dry mouth",
+          "Fatigue",
+          "Headache",
+          "Pharyngitis"
+        ],
+        "moderate": [
+          "Dizziness",
+          "Nausea",
+          "Urinary retention (rare)"
+        ],
+        "urgent": [
+          "Severe allergic reaction (rare)",
+          "Urinary retention in BPH patients"
+        ]
+      },
+      "warnings": {
+        "blackBox": "",
+        "alcoholWarning": "Alcohol may increase drowsiness; avoid driving/operating machinery if affected.",
+        "foodWarnings": [],
+        "pregnancyCaution": "Category B; preferred antihistamine in pregnancy if needed."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "CNS Depressants (Alcohol, Sedatives)",
+          "severity": "Minor",
+          "effect": "Additive sedation",
+          "recommendation": "Caution with driving/operating machinery."
+        },
+        {
+          "interactingDrug": "Theophylline",
+          "severity": "Minor",
+          "effect": "Slightly increased theophylline levels",
+          "recommendation": "Monitor if high-dose theophylline."
+        }
+      ],
+      "atcCodes": [
+        "R06AE07"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "salbutamol",
+      "genericName": "Salbutamol (Albuterol) Sulfate",
+      "brandNames": [
+        "Ventolin",
+        "Asthalin",
+        "Salbutamol",
+        "Levolin",
+        "Asmasol"
+      ],
+      "therapeuticClass": "Short-Acting Beta-2 Agonist (SABA)",
+      "primaryUses": [
+        "Acute Bronchospasm (Asthma/COPD)",
+        "Exercise-Induced Bronchospasm",
+        "Bronchospasm Prophylaxis"
+      ],
+      "mechanismOfAction": "Selective beta-2 adrenergic agonist causing bronchial smooth muscle relaxation, rapid onset (minutes), duration 4-6 hours.",
+      "standardDosage": "100-200 mcg (1-2 puffs) as needed; max 800 mcg/day; before exercise 15-30 min prior",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Shake inhaler well. Exhale fully, place mouthpiece in mouth, actuate while inhaling slowly and deeply. Hold breath 10 sec. Rinse mouth after use.",
+        "bestTimeOfDay": "As needed for symptoms or before trigger exposure",
+        "missedDoseAdvice": "Not applicable (as-needed). If using regularly and missed, take as soon as remembered."
+      },
+      "sideEffects": {
+        "mild": [
+          "Tremor (fine hand tremor)",
+          "Tachycardia",
+          "Palpitations",
+          "Nervousness",
+          "Headache",
+          "Throat irritation"
+        ],
+        "moderate": [
+          "Hypokalemia (high doses)",
+          "Muscle cramps",
+          "Insomnia"
+        ],
+        "urgent": [
+          "Paradoxical bronchospasm (worsening wheezing after use) - STOP and seek care",
+          "Severe hypersensitivity (angioedema, urticaria)",
+          "Cardiac arrhythmias (in susceptible patients)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Paradoxical Bronchospasm: Can cause life-threatening bronchospasm. If occurs, discontinue immediately and treat with alternative bronchodilator.",
+        "alcoholWarning": "No significant interaction.",
+        "foodWarnings": [],
+        "pregnancyCaution": "Category C; use if benefits outweigh risks. Uncontrolled asthma poses greater fetal risk."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Beta-Blockers (Non-selective)",
+          "severity": "Severe",
+          "effect": "Beta-blockers antagonize beta-2 effect, causing severe bronchospasm",
+          "recommendation": "Avoid non-selective beta-blockers in asthma/COPD. Cardioselective beta-1 blockers may be used with caution."
+        },
+        {
+          "interactingDrug": "Loop Diuretics",
+          "severity": "Moderate",
+          "effect": "Additive hypokalemia risk",
+          "recommendation": "Monitor potassium with high-dose/frequent salbutamol."
+        },
+        {
+          "interactingDrug": "MAO Inhibitors / Tricyclics",
+          "severity": "Moderate",
+          "effect": "Potentiated cardiovascular effects",
+          "recommendation": "Use with caution; monitor cardiac status."
+        }
+      ],
+      "atcCodes": [
+        "R03AC02"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "insulin_glargine",
+      "genericName": "Insulin Glargine",
+      "brandNames": [
+        "Lantus",
+        "Basalog",
+        "Glargine",
+        "Toujeo",
+        "Semglee"
+      ],
+      "therapeuticClass": "Long-Acting Basal Insulin Analog",
+      "primaryUses": [
+        "Type 1 Diabetes Mellitus",
+        "Type 2 Diabetes Mellitus (insulin-requiring)",
+        "Gestational Diabetes (if needed)"
+      ],
+      "mechanismOfAction": "Modified human insulin with prolonged, peakless action profile (~24 hours). Forms microprecipitates at injection site for slow, steady absorption providing basal insulin coverage.",
+      "standardDosage": "Individualized; typically 0.2-0.4 units/kg/day Type 1; 10-20 units/day Type 2 start; titrate to fasting glucose target",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Inject subcutaneously once daily at the same time each day. Rotate injection sites (abdomen, thigh, upper arm). Do not mix with other insulins.",
+        "bestTimeOfDay": "Consistent time daily (often bedtime or morning)",
+        "missedDoseAdvice": "If within 2 hours of usual time, take full dose. If >2 hours, check glucose and take partial dose; consult provider."
+      },
+      "sideEffects": {
+        "mild": [
+          "Injection site reactions (lipodystrophy, lipoatrophy)",
+          "Mild hypoglycemia",
+          "Weight gain",
+          "Peripheral edema"
+        ],
+        "moderate": [
+          "Symptomatic hypoglycemia",
+          "Allergic reactions at injection site",
+          "Insulin resistance (antibodies)"
+        ],
+        "urgent": [
+          "Severe hypoglycemia: Confusion, seizures, unconsciousness - GLUCAGON/IV DEXTROSE",
+          "Severe allergic reaction (anaphylaxis)",
+          "Diabetic ketoacidosis (if omitted in Type 1)"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Hypoglycemia: Most common adverse effect. Can be life-threatening. Risk increased with missed meals, exercise, alcohol, renal/hepatic impairment. Never share pen/device. Do not mix with other insulins.",
+        "alcoholWarning": "Alcohol increases hypoglycemia risk (impairs gluconeogenesis); can cause delayed hypoglycemia. Never drink on empty stomach.",
+        "foodWarnings": [
+          "Never skip meals after injection",
+          "Carry fast-acting carbohydrate"
+        ],
+        "pregnancyCaution": "Category B; insulin requirements change during pregnancy; intensive monitoring required."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "Beta-Blockers",
+          "severity": "Moderate",
+          "effect": "Mask hypoglycemia symptoms (tachycardia, tremor)",
+          "recommendation": "Educate patient on neuroglycopenic symptoms; monitor glucose closely."
+        },
+        {
+          "interactingDrug": "Thiazolidinediones (Pioglitazone)",
+          "severity": "Moderate",
+          "effect": "Increased risk of fluid retention and heart failure",
+          "recommendation": "Monitor for edema/heart failure; consider dose reduction."
+        },
+        {
+          "interactingDrug": "ACE Inhibitors / ARBs",
+          "severity": "Minor",
+          "effect": "May increase hypoglycemia risk",
+          "recommendation": "Monitor glucose; dose adjustment may be needed."
+        }
+      ],
+      "atcCodes": [
+        "A10AE04"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    },
+    {
+      "id": "warfarin",
+      "genericName": "Warfarin Sodium",
+      "brandNames": [
+        "Coumadin",
+        "Warf",
+        "Warfarin",
+        "Warfin",
+        "Warf"
+      ],
+      "therapeuticClass": "Vitamin K Antagonist (Oral Anticoagulant)",
+      "primaryUses": [
+        "Atrial Fibrillation (Stroke Prevention)",
+        "Venous Thromboembolism Treatment/Prophylaxis",
+        "Mechanical Heart Valves",
+        "Post-MI Thrombosis Prevention"
+      ],
+      "mechanismOfAction": "Inhibits vitamin K epoxide reductase, reducing synthesis of vitamin K-dependent clotting factors (II, VII, IX, X) and proteins C & S. Requires INR monitoring.",
+      "standardDosage": "Highly individualized; target INR typically 2.0-3.0 (2.5-3.5 for mechanical valves); typical 2-10 mg/day",
+      "howToTake": {
+        "foodRequirement": "either",
+        "instructions": "Take at the same time each day (usually evening). Consistent vitamin K intake (leafy greens). Regular INR monitoring essential. Do not change dose without provider guidance.",
+        "bestTimeOfDay": "Evening (allows same-day INR-based adjustment)",
+        "missedDoseAdvice": "If same day, take as soon as remembered. If next day, skip and resume; do not double. Contact provider if >1 dose missed."
+      },
+      "sideEffects": {
+        "mild": [
+          "Easy bruising",
+          "Minor bleeding (gums, nose)",
+          "Hair loss (rare)",
+          "Cold intolerance"
+        ],
+        "moderate": [
+          "Prolonged bleeding from cuts",
+          "Heavy menstrual bleeding",
+          "Hematuria",
+          "Elevated INR without bleeding"
+        ],
+        "urgent": [
+          "Major bleeding: GI bleed, intracranial hemorrhage, hematuria - MEDICAL EMERGENCY",
+          "INR >5.0 or >4.5 with risk factors",
+          "Skin necrosis (rare, early therapy)",
+          "Purple toe syndrome"
+        ]
+      },
+      "warnings": {
+        "blackBox": "Bleeding Risk: Major/fatal bleeding can occur. INR monitoring essential. Numerous drug/food interactions. Genetic variability (CYP2C9, VKORC1).",
+        "alcoholWarning": "Alcohol increases INR and bleeding risk (liver metabolism); acute intake increases effect, chronic may decrease. Avoid binge drinking.",
+        "foodWarnings": [
+          "Maintain consistent vitamin K intake (leafy greens, broccoli, Brussels sprouts)",
+          "Avoid sudden dietary changes",
+          "Cranberry juice may increase INR"
+        ],
+        "pregnancyCaution": "Category X - Contraindicated. Causes fetal hemorrhage, teratogenicity (warfarin embryopathy). Use LMWH in pregnancy."
+      },
+      "knownInteractions": [
+        {
+          "interactingDrug": "NSAIDs (including Aspirin)",
+          "severity": "Severe",
+          "effect": "Additive bleeding risk (antiplatelet + anticoagulant + GI irritation)",
+          "recommendation": "Avoid NSAIDs; use paracetamol for pain. If aspirin indicated (e.g., post-stent), monitor INR closely."
+        },
+        {
+          "interactingDrug": "Amoxicillin / Broad-spectrum Antibiotics",
+          "severity": "Moderate",
+          "effect": "Reduced vitamin K production by gut flora, increasing INR",
+          "recommendation": "Monitor INR 3-5 days after starting/stopping antibiotics."
+        },
+        {
+          "interactingDrug": "Amiodarone",
+          "severity": "Severe",
+          "effect": "Potent CYP2C9 inhibition, dramatically increasing warfarin effect",
+          "recommendation": "Reduce warfarin dose 30-50%; monitor INR frequently (twice weekly initially)."
+        }
+      ],
+      "atcCodes": [
+        "B01AA03"
+      ],
+      "source": "NLEM 2022; WHO EML 2023; DailyMed; MedlinePlus",
+      "lastUpdated": "2024-01-15",
+      "version": 1
+    }
+  ]
+}

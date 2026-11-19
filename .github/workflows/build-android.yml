@@ -1,0 +1,135 @@
+name: Build Android Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Android AAB/APK
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.0'
+          channel: 'stable'
+          cache: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Install dependencies
+        working-directory: ./apps/mobile
+        run: flutter pub get
+
+      - name: Generate code
+        working-directory: ./apps/mobile
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Build Android App Bundle (AAB)
+        working-directory: ./apps/mobile
+        run: flutter build appbundle --release
+
+      - name: Build Android APK
+        working-directory: ./apps/mobile
+        run: flutter build apk --release --split-per-abi
+
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: apps/mobile/build/app/outputs/bundle/release/app-release.aab
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-apks
+          path: apps/mobile/build/app/outputs/flutter-apk/
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - name: Download AAB
+        uses: actions/download-artifact@v4
+        with:
+          name: app-release-aab
+          path: ./artifacts/aab
+
+      - name: Download APKs
+        uses: actions/download-artifact@v4
+        with:
+          name: app-release-apks
+          path: ./artifacts/apks
+
+      - name: Prepare release notes
+        id: release_notes
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/}
+          cat <<EOF > release_notes.md
+          ## MedPocket $VERSION
+          
+          ### What's New
+          - Offline-first medication database (NLEM 2022 + WHO EML 2023)
+          - Camera-based label scanning with on-device OCR
+          - Medicine cabinet with dose tracking
+          - Drug-drug interaction checker
+          - Ayurvedic perspective (literature-sourced, pending expert review)
+          - English & Hindi support
+          - Air-gap mode for complete offline use
+          
+          ### Installation
+          1. Download the APK for your architecture:
+             - \`app-arm64-v8a-release.apk\` (most modern phones)
+             - \`app-armeabi-v7a-release.apk\` (older 32-bit ARM)
+             - \`app-x86_64-release.apk\` (emulators)
+          2. Enable "Install from unknown sources" in Android settings
+          3. Install the APK
+          
+          ### Important Disclaimers
+          - **Information only** — not medical advice
+          - **Ayurvedic entries are literature-sourced, pending expert review** — NOT verified recommendations
+          - **Never stop prescribed medication** without consulting your doctor
+          - Narrow therapeutic index drugs (warfarin, insulin, etc.) have special warnings
+          
+          ### Data Sources
+          - NLEM 2022, WHO EML 2023, Indian Pharmacopoeia
+          - Ayurvedic Pharmacopoeia of India, CCRAS publications
+          - PubMed/MEDLINE indexed literature
+          
+          Built with Flutter 3.19 | Android minSdk 23
+          EOF
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: MedPocket ${{ github.ref_name }}
+          body_path: release_notes.md
+          files: |
+            ./artifacts/aab/app-release.aab
+            ./artifacts/apks/*.apk
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

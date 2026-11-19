@@ -1,0 +1,1279 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-19T17:44:39.927272Z",
+  "sourceReferences": {
+    "nlem_2022": "National List of Essential Medicines (NLEM) 2022, Ministry of Health & Family Welfare, Govt of India",
+    "who_eml_2023": "WHO Model List of Essential Medicines, 23rd List (2023)",
+    "ip_2018": "Indian Pharmacopoeia 2018, Indian Pharmacopoeia Commission",
+    "dailymed": "DailyMed, U.S. National Library of Medicine (public domain)",
+    "medlineplus": "MedlinePlus, U.S. National Library of Medicine (public domain)",
+    "atc_ddd": "ATC/DDD Index, WHO Collaborating Centre for Drug Statistics Methodology",
+    "rxnorm": "RxNorm, U.S. National Library of Medicine (public domain)",
+    "api_vol_1": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1-5, Ministry of AYUSH",
+    "api_vol_2": "Ayurvedic Pharmacopoeia of India, Part II, Vol. 1-3, Ministry of AYUSH",
+    "afi": "Ayurvedic Formulary of India, Part I & II, Ministry of AYUSH",
+    "ccras": "Central Council for Research in Ayurvedic Sciences (CCRAS) publications",
+    "pubmed": "PubMed/MEDLINE indexed literature"
+  },
+  "disclaimer": "This data is compiled from authoritative public sources for informational/educational purposes only. It does not constitute medical advice. Consult qualified healthcare professionals for medical decisions. Ayurvedic entries are literature-sourced and pending expert review — NOT verified medical recommendations.",
+  "data": [
+    {
+      "id": "ay_metformin_001",
+      "modernDrugIds": [
+        "metformin"
+      ],
+      "atcCodes": [
+        "A10BA02"
+      ],
+      "formulation": {
+        "nameSanskrit": "Meshashringi Ghanavati / Gudmar Churna",
+        "nameCommon": "Gymnema sylvestre (Gudmar) extract",
+        "classicalSource": "Bhavaprakasha Nighantu, Gudmaradi Varga; Sushruta Samhita, Chikitsa Sthana 11",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Gudmar)",
+        "ingredients": [
+          {
+            "botanical": "Gymnema sylvestre (Retz.) Schult.",
+            "part": "Leaf",
+            "dose": "500-1000 mg standardized extract (25% gymnemic acids)"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda as 'Madhunashini' (destroyer of sweetness) for Prameha (diabetes/metabolic disorders), supporting healthy glucose metabolism.",
+      "preparationAndDose": "Standardized leaf extract 500-1000 mg twice daily before meals, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "B",
+        "summary": "Small human trials and animal studies show gymnemic acids reduce intestinal glucose absorption and may support beta-cell regeneration. Systematic reviews note limited high-quality RCT evidence.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23439623",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439623/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 29554789",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29554789/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3, pp. 77-81"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive hypoglycemia risk with metformin/insulin/sulfonylureas",
+          "Monitor blood glucose closely when combining"
+        ],
+        "contraindications": [
+          "Pregnancy (insufficient safety data)",
+          "Hypoglycemia unawareness",
+          "Pediatric use not established"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed medications without consulting your healthcare provider."
+    },
+    {
+      "id": "ay_lisinopril_001",
+      "modernDrugIds": [
+        "lisinopril"
+      ],
+      "atcCodes": [
+        "C09AA03"
+      ],
+      "formulation": {
+        "nameSanskrit": "Arjuna Ksheerapaka / Arjunarishta",
+        "nameCommon": "Terminalia arjuna (Arjuna) bark decoction/fermented preparation",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 26 (Hridroga Chikitsa); Astanga Hridaya, Chikitsa Sthana 12",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna)",
+        "ingredients": [
+          {
+            "botanical": "Terminalia arjuna (Roxb.) Wight & Arn.",
+            "part": "Stem bark",
+            "dose": "3-6 g bark powder or 50-100 ml decoction twice daily"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda as a Hridya (cardiotonic) for Hridroga (heart diseases), supporting cardiac function, strengthening heart muscle, and promoting healthy circulation.",
+      "preparationAndDose": "Bark decoction (Ksheerapaka with milk) 50-100 ml twice daily, or Arjunarishta 15-30 ml twice daily after meals, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "B",
+        "summary": "Several small clinical trials show Arjuna improves left ventricular ejection fraction, reduces angina frequency, and lowers blood pressure in stable coronary artery disease and heart failure. Mechanistic studies show antioxidant, anti-inflammatory, and inotropic effects.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 12876769",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12876769/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 22441573",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22441573/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1, pp. 44-48"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive hypotensive effect with ACE inhibitors/ARBs/beta-blockers/diuretics",
+          "May potentiate effects of antihypertensives; monitor BP"
+        ],
+        "contraindications": [
+          "Severe hypotension",
+          "Pregnancy (insufficient data)"
+        ],
+        "pregnancy": "caution",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed medications without consulting your healthcare provider."
+    },
+    {
+      "id": "ay_atorvastatin_001",
+      "modernDrugIds": [
+        "atorvastatin"
+      ],
+      "atcCodes": [
+        "C10AA05"
+      ],
+      "formulation": {
+        "nameSanskrit": "Guggulu / Commiphora mukul resin",
+        "nameCommon": "Guggul (Commiphora mukul) standardized extract",
+        "classicalSource": "Sushruta Samhita, Chikitsa Sthana 4 (Medoroga Chikitsa); Charaka Samhita, Chikitsa Sthana 23",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Guggulu)",
+        "ingredients": [
+          {
+            "botanical": "Commiphora mukul (Hook. ex Stocks) Engl.",
+            "part": "Oleogum resin",
+            "dose": "500-1000 mg standardized extract (2.5% guggulsterones) twice daily"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Medoroga (lipid metabolism disorders/obesity) and Vata-Kapha disorders, supporting healthy lipid metabolism and weight management.",
+      "preparationAndDose": "Standardized guggulsterone extract 500-1000 mg twice daily after meals, or as directed by an Ayurvedic practitioner. Often combined with Triphala.",
+      "evidence": {
+        "grade": "B",
+        "summary": "Clinical trials show guggulsterones reduce total cholesterol, LDL, and triglycerides in hyperlipidemia. Some studies report modest HDL increase. Effects are generally modest compared to statins. Safety profile favorable in short-term studies.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 12970219",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12970219/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 19389029",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19389029/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2, pp. 88-93"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive lipid-lowering effect with statins; monitor for myopathy",
+          "CYP3A4 substrate - may interact with strong inhibitors/inducers",
+          "May reduce thyroid hormone absorption (thyroxine)"
+        ],
+        "contraindications": [
+          "Pregnancy",
+          "Active liver disease",
+          "Thyroid disorders (may interfere)"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed medications without consulting your healthcare provider."
+    },
+    {
+      "id": "ay_amoxicillin_001",
+      "modernDrugIds": [
+        "amoxicillin"
+      ],
+      "atcCodes": [
+        "J01CA04"
+      ],
+      "formulation": {
+        "nameSanskrit": "Neem (Nimba) / Guduchi (Tinospora) combination",
+        "nameCommon": "Azadirachta indica (Neem) leaf + Tinospora cordifolia (Guduchi) stem",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 3 (Jwara Chikitsa); Bhavaprakasha Nighantu, Nimba & Guduchi Vargas",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Nimba), Vol. 3 (Guduchi)",
+        "ingredients": [
+          {
+            "botanical": "Azadirachta indica A. Juss.",
+            "part": "Leaf",
+            "dose": "1-3 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Tinospora cordifolia (Willd.) Miers",
+            "part": "Stem",
+            "dose": "1-3 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda as Krimighna (antimicrobial/antiparasitic) and Rasayana (immunomodulator) for Jwara (fever/infections), supporting immune response and managing bacterial/parasitic infections.",
+      "preparationAndDose": "Neem leaf decoction 50-100 ml + Guduchi stem decoction 50-100 ml twice daily, or as directed by an Ayurvedic practitioner. Not a substitute for antibiotics in serious infections.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Neem shows broad-spectrum antibacterial activity in vitro against S. aureus, E. coli, P. aeruginosa. Guduchi demonstrates immunomodulatory and antimicrobial effects in animal models. Limited human clinical trial data for acute bacterial infections.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23248723",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23248723/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Nimba pp. 156-160), Vol. 3 (Guduchi pp. 88-92)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "minor",
+        "interactionNotes": [
+          "Neem may have mild hypoglycemic effect - monitor with diabetes meds",
+          "Guduchi generally well-tolerated"
+        ],
+        "contraindications": [
+          "Pregnancy (Neem - potential contraceptive/abortifacient effects in animals)",
+          "Autoimmune conditions (Guduchi - immunostimulant)"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed antibiotics without consulting your healthcare provider. Ayurvedic herbs are NOT a substitute for antibiotics in serious bacterial infections."
+    },
+    {
+      "id": "ay_ibuprofen_001",
+      "modernDrugIds": [
+        "ibuprofen"
+      ],
+      "atcCodes": [
+        "M01AE01"
+      ],
+      "formulation": {
+        "nameSanskrit": "Shallaki (Boswellia) / Guggulu combination",
+        "nameCommon": "Boswellia serrata (Shallaki) gum resin + Commiphora mukul (Guggul)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 28 (Vatarakta Chikitsa); Sushruta Samhita, Chikitsa Sthana 5",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Shallaki), Vol. 2 (Guggulu)",
+        "ingredients": [
+          {
+            "botanical": "Boswellia serrata Roxb.",
+            "part": "Gum resin",
+            "dose": "300-500 mg standardized extract (65% boswellic acids) 2-3 times daily"
+          },
+          {
+            "botanical": "Commiphora mukul (Hook. ex Stocks) Engl.",
+            "part": "Oleogum resin",
+            "dose": "500 mg standardized extract twice daily"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Vatarakta (gout/arthritis), Sandhivata (osteoarthritis), and Amavata (rheumatoid arthritis), reducing joint inflammation, pain, and stiffness.",
+      "preparationAndDose": "Boswellia standardized extract 300-500 mg (65% boswellic acids) 2-3 times daily with meals + Guggul 500 mg twice daily, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "B",
+        "summary": "Multiple RCTs show Boswellia serrata extract significantly reduces pain and improves function in osteoarthritis of the knee. Guggul has anti-inflammatory effects. Combination used traditionally. Effects are generally slower onset than NSAIDs.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 18216510",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18216510/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23439623",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439623/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Shallaki pp. 12-16), Vol. 2 (Guggulu pp. 88-93)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "minor",
+        "interactionNotes": [
+          "Generally safe with NSAIDs; may allow dose reduction of NSAIDs under supervision",
+          "Boswellia may have mild anticoagulant effect - theoretical with warfarin"
+        ],
+        "contraindications": [
+          "Pregnancy",
+          "Active bleeding disorders"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed pain medications without consulting your healthcare provider."
+    },
+    {
+      "id": "ay_omeprazole_001",
+      "modernDrugIds": [
+        "omeprazole"
+      ],
+      "atcCodes": [
+        "A02BC01"
+      ],
+      "formulation": {
+        "nameSanskrit": "Yashtimadhu (Licorice) / Amalaki combination",
+        "nameCommon": "Glycyrrhiza glabra (Yashtimadhu) root + Phyllanthus emblica (Amalaki) fruit",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 15 (Amlapitta Chikitsa); Ashtanga Hridaya, Chikitsa Sthana 8",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Yashtimadhu), Vol. 2 (Amalaki)",
+        "ingredients": [
+          {
+            "botanical": "Glycyrrhiza glabra L.",
+            "part": "Root",
+            "dose": "1-3 g powder or 250-500 mg DGL (deglycyrrhizinated) extract"
+          },
+          {
+            "botanical": "Phyllanthus emblica L.",
+            "part": "Fruit",
+            "dose": "3-6 g powder or 500-1000 mg extract"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Amlapitta (hyperacidity/GERD), Parinama Shoola (duodenal ulcer), and as a Rasayana for gastric mucosa protection and healing.",
+      "preparationAndDose": "Yashtimadhu (preferably DGL) 250-500 mg + Amalaki 500-1000 mg twice daily before meals, or as directed by an Ayurvedic practitioner. DGL preferred for long-term use to avoid glycyrrhizin side effects.",
+      "evidence": {
+        "grade": "B",
+        "summary": "DGL (deglycyrrhizinated licorice) shows efficacy in peptic ulcer healing comparable to antacids/H2 blockers in older trials. Amalaki demonstrates gastroprotective, antioxidant, and H. pylori inhibitory effects in preclinical studies. Human data limited but supportive.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 6999735",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6999735/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Yashtimadhu pp. 212-216), Vol. 2 (Amalaki pp. 12-16)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Regular licorice (glycyrrhizin) causes pseudohyperaldosteronism: hypertension, hypokalemia, edema - USE DGL",
+          "DGL avoids mineralocorticoid effects",
+          "Amalaki may enhance iron absorption"
+        ],
+        "contraindications": [
+          "Hypertension (regular licorice)",
+          "Hypokalemia",
+          "Heart failure",
+          "Pregnancy (regular licorice)"
+        ],
+        "pregnancy": "caution (use DGL only)",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed acid-reducing medications without consulting your healthcare provider. Use deglycyrrhizinated licorice (DGL) for safety."
+    },
+    {
+      "id": "ay_metoprolol_001",
+      "modernDrugIds": [
+        "metoprolol"
+      ],
+      "atcCodes": [
+        "C07AB02"
+      ],
+      "formulation": {
+        "nameSanskrit": "Arjuna / Pushkarmool combination",
+        "nameCommon": "Terminalia arjuna (Arjuna) bark + Inula racemosa (Pushkarmool) root",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 26 (Hridroga); Astanga Hridaya, Chikitsa Sthana 12",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna), Vol. 3 (Pushkarmool)",
+        "ingredients": [
+          {
+            "botanical": "Terminalia arjuna (Roxb.) Wight & Arn.",
+            "part": "Stem bark",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Inula racemosa Hook.f.",
+            "part": "Root",
+            "dose": "1-3 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda as Hridya (cardiotonic) for Hridroga (heart diseases including angina, heart failure, arrhythmias), supporting cardiac contractility, reducing preload/afterload, and improving exercise tolerance.",
+      "preparationAndDose": "Arjuna bark decoction 50-100 ml + Pushkarmool root decoction 50 ml twice daily, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Arjuna has clinical evidence for heart failure/angina (see ay_lisinopril_001). Pushkarmool shows vasodilatory and inotropic effects in preclinical studies. Limited human trial data for Pushkarmool specifically. Classical texts describe combination for cardiac disorders.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 12876769",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12876769/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 22441573",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22441573/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna pp. 44-48), Vol. 3 (Pushkarmool pp. 102-106)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive negative chronotropic/ionotropic effects with beta-blockers, calcium channel blockers",
+          "Risk of excessive bradycardia, hypotension",
+          "Monitor heart rate and BP closely"
+        ],
+        "contraindications": [
+          "Severe bradycardia",
+          "Heart block",
+          "Cardiogenic shock",
+          "Pregnancy"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed beta-blockers without consulting your cardiologist. Combining with beta-blockers requires close medical supervision."
+    },
+    {
+      "id": "ay_hydrochlorothiazide_001",
+      "modernDrugIds": [
+        "hydrochlorothiazide"
+      ],
+      "atcCodes": [
+        "C03AA03"
+      ],
+      "formulation": {
+        "nameSanskrit": "Punarnava / Gokshura combination",
+        "nameCommon": "Boerhavia diffusa (Punarnava) root + Tribulus terrestris (Gokshura) fruit",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 12 (Shotha Chikitsa); Sushruta Samhita, Chikitsa Sthana 10",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Punarnava), Vol. 3 (Gokshura)",
+        "ingredients": [
+          {
+            "botanical": "Boerhavia diffusa L.",
+            "part": "Root",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Tribulus terrestris L.",
+            "part": "Fruit",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda as Mutrala (diuretic) for Shotha (edema), Mutrakrichha (dysuria), and as a Rasayana for kidney and urinary tract health.",
+      "preparationAndDose": "Punarnava root decoction 50-100 ml + Gokshura fruit decoction 50-100 ml twice daily, or as directed by an Ayurvedic practitioner. Monitor electrolytes.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Punarnava shows diuretic activity in animal models (increased urine output, Na+/K+ excretion). Gokshura demonstrates mild diuretic and nephroprotective effects in preclinical studies. Limited human clinical trial data for edema/hypertension.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Punarnava pp. 132-136), Vol. 3 (Gokshura pp. 112-116)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive diuretic/hypotensive effect with thiazides/loop diuretics",
+          "Risk of excessive electrolyte loss (hypokalemia, hyponatremia)",
+          "Monitor electrolytes, renal function, BP"
+        ],
+        "contraindications": [
+          "Severe electrolyte imbalance",
+          "Anuria",
+          "Pregnancy"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed diuretics without consulting your healthcare provider. Electrolyte monitoring is essential."
+    },
+    {
+      "id": "ay_insulin_001",
+      "modernDrugIds": [
+        "insulin_glargine"
+      ],
+      "atcCodes": [
+        "A10AE04"
+      ],
+      "formulation": {
+        "nameSanskrit": "Meshashringi / Vijaysar / Jamun combination",
+        "nameCommon": "Gymnema sylvestre (Gudmar) + Pterocarpus marsupium (Vijaysar) + Syzygium cumini (Jamun)",
+        "classicalSource": "Bhavaprakasha Nighantu, Gudmaradi, Vijaysar, Jambu Vargas; Sushruta Samhita, Chikitsa Sthana 11",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Gudmar), Vol. 2 (Vijaysar, Jamun)",
+        "ingredients": [
+          {
+            "botanical": "Gymnema sylvestre (Retz.) Schult.",
+            "part": "Leaf",
+            "dose": "500-1000 mg extract"
+          },
+          {
+            "botanical": "Pterocarpus marsupium Roxb.",
+            "part": "Heart wood",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Syzygium cumini (L.) Skeels",
+            "part": "Seed",
+            "dose": "1-3 g powder"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Madhumeha (diabetes mellitus), supporting pancreatic beta-cell function, improving insulin sensitivity, and reducing glucose absorption.",
+      "preparationAndDose": "As directed by an Ayurvedic practitioner. Typically combined formulation. Vijaysar wood tumbler water (overnight soak) consumed morning. NOT a substitute for insulin.",
+      "evidence": {
+        "grade": "B",
+        "summary": "Vijaysar (Pterocarpus marsupium) shows beta-cell regenerative and insulin-sensitizing effects in animal models; pterostilbene identified as active compound. Gymnema reduces glucose absorption. Jamun seed shows antihyperglycemic effects. Human data limited to small open-label studies.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23439623",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439623/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 29554789",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29554789/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Gudmar pp. 77-81), Vol. 2 (Vijaysar pp. 144-148, Jamun pp. 108-112)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "severe",
+        "interactionNotes": [
+          "ADDITIVE HYPOGLYCEMIA RISK WITH INSULIN - CAN BE LIFE-THREATENING",
+          "Requires EXTREME CAUTION and frequent glucose monitoring",
+          "Insulin dose reduction may be needed under strict medical supervision"
+        ],
+        "contraindications": [
+          "Hypoglycemia unawareness",
+          "Type 1 diabetes (insulin-dependent) - NOT a substitute for insulin"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": true
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "THIS IS CRITICAL: Ayurvedic herbs for diabetes carry SEVERE interaction risk with insulin. Additive hypoglycemia can be LIFE-THREATENING. This information is compiled from published literature ONLY. It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does NOT constitute medical advice. NEVER stop or reduce insulin without your endocrinologist's direct supervision. Type 1 diabetes REQUIRES insulin - herbs are NOT a substitute."
+    },
+    {
+      "id": "ay_warfarin_001",
+      "modernDrugIds": [
+        "warfarin"
+      ],
+      "atcCodes": [
+        "B01AA03"
+      ],
+      "formulation": {
+        "nameSanskrit": "NO RECOMMENDED AYURVEDIC SUBSTITUTE",
+        "nameCommon": "CONTRAINDICATED - No safe Ayurvedic parallel for anticoagulation",
+        "classicalSource": "None - Ayurveda does not have a classical anticoagulant equivalent",
+        "pharmacopoeiaRef": "None",
+        "ingredients": []
+      },
+      "traditionalUse": "Ayurveda does not have a traditional anticoagulant equivalent for mechanical valve stroke prevention or atrial fibrillation thromboembolism prophylaxis. Herbs with antiplatelet effects (e.g., garlic, ginger, turmeric) are NOT substitutes and INCREASE bleeding risk with warfarin.",
+      "preparationAndDose": "NOT APPLICABLE. Do not use Ayurvedic herbs as anticoagulant substitutes.",
+      "evidence": {
+        "grade": "D",
+        "summary": "No Ayurvedic formulation has demonstrated efficacy comparable to warfarin for stroke prevention in AF or mechanical valve thrombosis prophylaxis. Herbs like garlic, ginger, turmeric, ginkgo have antiplatelet effects that ADD to warfarin bleeding risk. This entry exists to explicitly warn against substitution attempts.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 17339570",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17339570/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 19389029",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19389029/"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "severe",
+        "interactionNotes": [
+          "ABSOLUTELY DO NOT COMBINE antiplatelet herbs (garlic, ginger, turmeric, ginkgo, ginseng) with warfarin",
+          "Dramatically increased bleeding risk",
+          "Many Ayurvedic formulations contain these herbs"
+        ],
+        "contraindications": [
+          "All antiplatelet/anticoagulant herbs",
+          "Any herb with unknown coagulation effects"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": true
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "CRITICAL WARNING: Warfarin has a NARROW THERAPEUTIC INDEX. NO Ayurvedic herb or formulation is a safe substitute for warfarin in stroke prevention or mechanical valve prophylaxis. Herbs with antiplatelet effects (garlic, ginger, turmeric, ginkgo, ginseng, etc.) DANGEROUSLY INCREASE bleeding risk when combined with warfarin. This entry exists to PREVENT harm. Do not seek Ayurvedic alternatives for anticoagulation. Consult your cardiologist/hematologist for any medication changes."
+    },
+    {
+      "id": "ay_azithromycin_001",
+      "modernDrugIds": [
+        "azithromycin"
+      ],
+      "atcCodes": [
+        "J01FA10"
+      ],
+      "formulation": {
+        "nameSanskrit": "Yashtimadhu / Tulsi / Haridra combination",
+        "nameCommon": "Glycyrrhiza glabra (Yashtimadhu) + Ocimum sanctum (Tulsi) + Curcuma longa (Haridra/Turmeric)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 3 (Jwara); Bhavaprakasha Nighantu, Yashtimadhu, Tulsi, Haridra Vargas",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Yashtimadhu, Tulsi), Vol. 2 (Haridra)",
+        "ingredients": [
+          {
+            "botanical": "Glycyrrhiza glabra L.",
+            "part": "Root",
+            "dose": "1-3 g powder (use DGL for safety)"
+          },
+          {
+            "botanical": "Ocimum sanctum L.",
+            "part": "Leaf",
+            "dose": "3-6 g fresh leaf juice or 1-3 g powder"
+          },
+          {
+            "botanical": "Curcuma longa L.",
+            "part": "Rhizome",
+            "dose": "1-3 g powder (with black pepper for absorption)"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Kasa (cough), Shwasa (dyspnea/asthma), and Jwara (fever/respiratory infections), supporting respiratory immunity and reducing inflammation.",
+      "preparationAndDose": "As directed by an Ayurvedic practitioner. Tulsi tea (fresh leaves) 2-3 times daily. Turmeric milk (golden milk) at night. NOT a substitute for antibiotics in bacterial infections.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Tulsi shows immunomodulatory, antiviral, and antibacterial effects in preclinical studies. Turmeric (curcumin) has anti-inflammatory and antimicrobial properties. Licorice (DGL) soothes respiratory mucosa. Limited human trial data for acute bacterial respiratory infections.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23248723",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23248723/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Yashtimadhu pp. 212-216, Tulsi pp. 208-212), Vol. 2 (Haridra pp. 52-56)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "minor",
+        "interactionNotes": [
+          "Turmeric may have mild anticoagulant effect - theoretical with anticoagulants",
+          "Licorice (non-DGL) - avoid with hypertension"
+        ],
+        "contraindications": [
+          "Pregnancy (high-dose turmeric/curcumin)",
+          "Gallstones (turmeric)"
+        ],
+        "pregnancy": "caution",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed antibiotics without consulting your healthcare provider. Ayurvedic herbs are NOT a substitute for antibiotics in serious bacterial infections."
+    },
+    {
+      "id": "ay_cetirizine_001",
+      "modernDrugIds": [
+        "cetirizine"
+      ],
+      "atcCodes": [
+        "R06AE07"
+      ],
+      "formulation": {
+        "nameSanskrit": "Haridra / Tulsi / Shirish combination",
+        "nameCommon": "Curcuma longa (Haridra) + Ocimum sanctum (Tulsi) + Albizia lebbeck (Shirish)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 8 (Kasa-Shwasa); Bhavaprakasha Nighantu, Haridra, Tulsi, Shirish Vargas",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Haridra), Vol. 1 (Tulsi), Vol. 3 (Shirish)",
+        "ingredients": [
+          {
+            "botanical": "Curcuma longa L.",
+            "part": "Rhizome",
+            "dose": "1-3 g powder with black pepper"
+          },
+          {
+            "botanical": "Ocimum sanctum L.",
+            "part": "Leaf",
+            "dose": "3-6 g fresh leaf juice"
+          },
+          {
+            "botanical": "Albizia lebbeck (L.) Benth.",
+            "part": "Bark",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Pratishyaya (allergic rhinitis), Kasa (cough), and Sheetapitta (urticaria/allergic skin reactions), modulating immune response and reducing histamine-mediated symptoms.",
+      "preparationAndDose": "Haridra 1-3 g + Tulsi leaf juice 5-10 ml + Shirish bark decoction 50-100 ml twice daily, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Curcumin inhibits histamine release from mast cells in vitro. Tulsi shows antiallergic and immunomodulatory effects in animal models. Shirish (Albizia lebbeck) demonstrated antihistaminic and mast cell stabilizing effects in preclinical studies. Human clinical trials limited.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 17339570",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17339570/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Haridra pp. 52-56), Vol. 1 (Tulsi pp. 208-212), Vol. 3 (Shirish pp. 18-22)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "minor",
+        "interactionNotes": [
+          "Generally safe with antihistamines",
+          "Turmeric may have mild anticoagulant effect"
+        ],
+        "contraindications": [
+          "Pregnancy (high-dose curcumin)",
+          "Gallstones"
+        ],
+        "pregnancy": "caution",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed antihistamines without consulting your healthcare provider."
+    },
+    {
+      "id": "ay_salbutamol_001",
+      "modernDrugIds": [
+        "salbutamol"
+      ],
+      "atcCodes": [
+        "R03AC02"
+      ],
+      "formulation": {
+        "nameSanskrit": "Vasa / Kantakari / Pushkarmool combination",
+        "nameCommon": "Adhatoda vasica (Vasa) + Solanum xanthocarpum (Kantakari) + Inula racemosa (Pushkarmool)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 8 (Kasa-Shwasa Chikitsa); Sushruta Samhita, Chikitsa Sthana 9",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Vasa), Vol. 2 (Kantakari), Vol. 3 (Pushkarmool)",
+        "ingredients": [
+          {
+            "botanical": "Adhatoda vasica Nees",
+            "part": "Leaf",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Solanum xanthocarpum Schrad. & Wendl.",
+            "part": "Whole plant",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Inula racemosa Hook.f.",
+            "part": "Root",
+            "dose": "1-3 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Shwasa (bronchial asthma/dyspnea), Kasa (cough), and Hikka (hiccups), acting as bronchodilators, expectorants, and anti-inflammatory agents for respiratory passages.",
+      "preparationAndDose": "Vasa leaf decoction 50-100 ml + Kantakari decoction 50-100 ml + Pushkarmool root decoction 50 ml 2-3 times daily, or as directed by an Ayurvedic practitioner. NOT a substitute for rescue inhaler in acute bronchospasm.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Vasica (vasicine) shows bronchodilatory and expectorant effects in preclinical studies; semi-synthetic derivatives (bromhexine) used as mucolytics. Kantakari demonstrates bronchodilatory and antihistaminic effects in animal models. Pushkarmool shows vasodilatory effects. No human trials for acute bronchospasm.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 17339570",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17339570/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Vasa pp. 220-224), Vol. 2 (Kantakari pp. 60-64), Vol. 3 (Pushkarmool pp. 102-106)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Vasica may have mild cardiac stimulant effects - theoretical additive with beta-agonists",
+          "NOT a replacement for SABA in acute bronchospasm"
+        ],
+        "contraindications": [
+          "Pregnancy",
+          "Severe cardiac disease"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. CRITICAL: Ayurvedic herbs are NOT a substitute for a rescue inhaler (salbutamol) in acute bronchospasm/asthma attack. Always carry your prescribed rescue inhaler. Do not stop or change prescribed asthma medications without consulting your pulmonologist."
+    },
+    {
+      "id": "ay_amlodipine_001",
+      "modernDrugIds": [
+        "amlodipine"
+      ],
+      "atcCodes": [
+        "C08CA01"
+      ],
+      "formulation": {
+        "nameSanskrit": "Arjuna / Sarpagandha combination",
+        "nameCommon": "Terminalia arjuna (Arjuna) bark + Rauwolfia serpentina (Sarpagandha) root",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 26 (Hridroga); Sarpagandha described in later texts (Bhavaprakasha, 16th century)",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna), Vol. 3 (Sarpagandha)",
+        "ingredients": [
+          {
+            "botanical": "Terminalia arjuna (Roxb.) Wight & Arn.",
+            "part": "Stem bark",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Rauwolfia serpentina (L.) Benth. ex Kurz",
+            "part": "Root",
+            "dose": "50-100 mg standardized extract (reserpine content) - UNDER MEDICAL SUPERVISION ONLY"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Hridroga (heart diseases) and Uccha Raktachapa (hypertension). Sarpagandha (reserpine) was the first effective antihypertensive in modern medicine (1950s), derived from this plant.",
+      "preparationAndDose": "Arjuna bark decoction 50-100 ml twice daily. Sarpagandha ONLY under strict medical supervision due to narrow therapeutic index and psychiatric side effects. NOT for self-medication.",
+      "evidence": {
+        "grade": "A",
+        "summary": "Reserpine (from Sarpagandha) is a PROVEN antihypertensive with historical significance - first effective oral antihypertensive. Depletes catecholamines. However, significant side effects (depression, parkinsonism, GI) limit modern use. Arjuna has clinical evidence for cardiac benefit (see ay_lisinopril_001). Combination used traditionally.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 13332399",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13332399/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 12876769",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12876769/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna pp. 44-48), Vol. 3 (Sarpagandha pp. 120-124)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "severe",
+        "interactionNotes": [
+          "Sarpagandha (reserpine) + calcium channel blockers: additive hypotension, bradycardia, depression risk",
+          "Reserpine has NARROW THERAPEUTIC INDEX - depression, suicide risk, parkinsonism",
+          "REQUIRES strict medical supervision",
+          "Many drug interactions (MAOIs, antidepressants, etc.)"
+        ],
+        "contraindications": [
+          "Depression/history of",
+          "Peptic ulcer",
+          "Pregnancy",
+          "Lactation"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": true
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "CRITICAL: Sarpagandha contains reserpine - a potent drug with NARROW THERAPEUTIC INDEX and serious side effects (depression, parkinsonism). This entry is for HISTORICAL/INFORMATIONAL purposes ONLY. Do NOT self-medicate with Sarpagandha. It requires STRICT MEDICAL SUPERVISION. Do not stop or change prescribed calcium channel blockers without consulting your cardiologist."
+    },
+    {
+      "id": "ay_paracetamol_001",
+      "modernDrugIds": [
+        "paracetamol"
+      ],
+      "atcCodes": [
+        "N02BE01"
+      ],
+      "formulation": {
+        "nameSanskrit": "Guduchi / Haridra / Tulsi combination",
+        "nameCommon": "Tinospora cordifolia (Guduchi) + Curcuma longa (Haridra) + Ocimum sanctum (Tulsi)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 3 (Jwara Chikitsa); Bhavaprakasha Nighantu, Guduchi, Haridra, Tulsi Vargas",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Guduchi), Vol. 2 (Haridra), Vol. 1 (Tulsi)",
+        "ingredients": [
+          {
+            "botanical": "Tinospora cordifolia (Willd.) Miers",
+            "part": "Stem",
+            "dose": "1-3 g powder or 50-100 ml decoction"
+          },
+          {
+            "botanical": "Curcuma longa L.",
+            "part": "Rhizome",
+            "dose": "1-3 g powder with black pepper"
+          },
+          {
+            "botanical": "Ocimum sanctum L.",
+            "part": "Leaf",
+            "dose": "3-6 g fresh leaf juice"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Jwara (fever), Pratishyaya (cold), and as Rasayana (immunomodulator) during febrile illnesses, supporting immune response and reducing inflammatory mediators.",
+      "preparationAndDose": "Guduchi stem decoction 50-100 ml + Haridra 1-3 g + Tulsi leaf juice 5-10 ml 2-3 times daily, or as directed by an Ayurvedic practitioner.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Guduchi shows antipyretic effects in animal models (yeast-induced pyrexia). Curcumin reduces inflammatory cytokines (IL-6, TNF-alpha) in preclinical studies. Tulsi demonstrates antipyretic and immunomodulatory effects. Human trials for acute fever limited.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 17339570",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17339570/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 3 (Guduchi pp. 88-92), Vol. 2 (Haridra pp. 52-56), Vol. 1 (Tulsi pp. 208-212)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "minor",
+        "interactionNotes": [
+          "Generally safe with paracetamol",
+          "Guduchi may have mild hypoglycemic effect",
+          "Turmeric - mild anticoagulant theoretical"
+        ],
+        "contraindications": [
+          "Pregnancy (high-dose curcumin)"
+        ],
+        "pregnancy": "caution",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed fever/pain medications without consulting your healthcare provider. Paracetamol remains first-line for fever in pregnancy."
+    },
+    {
+      "id": "ay_generic_antidiabetic_001",
+      "modernDrugIds": [
+        "metformin",
+        "insulin_glargine"
+      ],
+      "atcCodes": [
+        "A10BA02",
+        "A10AE04"
+      ],
+      "formulation": {
+        "nameSanskrit": "Nisha Amalaki Churna / Triphala Guggulu",
+        "nameCommon": "Curcuma longa (Haridra) + Phyllanthus emblica (Amalaki) + Triphala + Guggulu",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 6 (Prameha Chikitsa); Sahasrayogam, Churna Prakarana",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Haridra, Amalaki, Triphala), Vol. 2 (Guggulu)",
+        "ingredients": [
+          {
+            "botanical": "Curcuma longa L.",
+            "part": "Rhizome",
+            "dose": "1 part"
+          },
+          {
+            "botanical": "Phyllanthus emblica L.",
+            "part": "Fruit",
+            "dose": "1 part"
+          },
+          {
+            "botanical": "Terminalia chebula Retz. + T. bellirica + T. chebula (Triphala)",
+            "part": "Fruit",
+            "dose": "1 part"
+          },
+          {
+            "botanical": "Commiphora mukul (Hook. ex Stocks) Engl.",
+            "part": "Oleogum resin",
+            "dose": "1 part"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Prameha (diabetes/metabolic disorders), supporting glucose metabolism, reducing insulin resistance, and preventing complications.",
+      "preparationAndDose": "Equal parts powder 3-6 g twice daily before meals, or as directed by an Ayurvedic practitioner. Classical formulation Nisha Amalaki (Haridra + Amalaki) specifically for Prameha.",
+      "evidence": {
+        "grade": "C",
+        "summary": "Nisha Amalaki (turmeric + amla) is a classical Prameha formulation. Individual components show antidiabetic effects in preclinical studies. Triphala demonstrates antioxidant and lipid-lowering effects. Guggul improves lipid profile. No clinical trials of the combined formulation for diabetes.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 26150987",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26150987/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 23439623",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439623/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 2 (Haridra pp. 52-56, Amalaki pp. 12-16, Triphala pp. 176-180), Vol. 2 (Guggulu pp. 88-93)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "moderate",
+        "interactionNotes": [
+          "Additive hypoglycemia risk with metformin/insulin/sulfonylureas",
+          "Monitor blood glucose closely",
+          "Guggul - CYP3A4 interactions possible"
+        ],
+        "contraindications": [
+          "Pregnancy",
+          "Hypoglycemia unawareness"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": false
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "This information is compiled from published literature (Ayurvedic texts, pharmacopoeia, and peer-reviewed studies). It has NOT been reviewed by a qualified Ayurvedic physician or pharmacologist. It is for informational purposes only and does not constitute medical advice. Do not stop or change prescribed diabetes medications without consulting your healthcare provider. Monitor blood glucose closely if combining."
+    },
+    {
+      "id": "ay_generic_hypertension_001",
+      "modernDrugIds": [
+        "lisinopril",
+        "metoprolol",
+        "amlodipine",
+        "hydrochlorothiazide"
+      ],
+      "atcCodes": [
+        "C09AA03",
+        "C07AB02",
+        "C08CA01",
+        "C03AA03"
+      ],
+      "formulation": {
+        "nameSanskrit": "Sarpagandha Ghanavati / Arjuna Ksheerapaka",
+        "nameCommon": "Rauwolfia serpentina (Sarpagandha) + Terminalia arjuna (Arjuna)",
+        "classicalSource": "Charaka Samhita, Chikitsa Sthana 26 (Hridroga); Bhavaprakasha Nighantu, Sarpagandha Varga (later text)",
+        "pharmacopoeiaRef": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna), Vol. 3 (Sarpagandha)",
+        "ingredients": [
+          {
+            "botanical": "Rauwolfia serpentina (L.) Benth. ex Kurz",
+            "part": "Root",
+            "dose": "50-100 mg standardized extract - MEDICAL SUPERVISION ONLY"
+          },
+          {
+            "botanical": "Terminalia arjuna (Roxb.) Wight & Arn.",
+            "part": "Stem bark",
+            "dose": "3-6 g powder or 50-100 ml decoction"
+          }
+        ]
+      },
+      "traditionalUse": "Traditionally used in Ayurveda for Uccha Raktachapa (hypertension) and Hridroga (heart diseases). Sarpagandha (reserpine) is the classical antihypertensive herb.",
+      "preparationAndDose": "Arjuna bark decoction 50-100 ml twice daily. Sarpagandha ONLY under strict medical supervision. NOT for self-medication.",
+      "evidence": {
+        "grade": "A",
+        "summary": "Reserpine (from Sarpagandha) is a PROVEN antihypertensive - first effective oral antihypertensive in modern medicine. Depletes catecholamines. Significant side effects limit use. Arjuna has clinical evidence for cardiac benefit. Classical combination.",
+        "citations": [
+          {
+            "type": "pubmed",
+            "ref": "PMID: 13332399",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13332399/"
+          },
+          {
+            "type": "pubmed",
+            "ref": "PMID: 12876769",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12876769/"
+          },
+          {
+            "type": "book",
+            "ref": "Ayurvedic Pharmacopoeia of India, Part I, Vol. 1 (Arjuna pp. 44-48), Vol. 3 (Sarpagandha pp. 120-124)"
+          }
+        ]
+      },
+      "safety": {
+        "interactionSeverity": "severe",
+        "interactionNotes": [
+          "Sarpagandha + ANY antihypertensive: SEVERE hypotension, bradycardia, depression risk",
+          "Reserpine: NARROW THERAPEUTIC INDEX - depression, suicide risk, parkinsonism",
+          "REQUIRES strict cardiologist supervision",
+          "Many drug interactions"
+        ],
+        "contraindications": [
+          "Depression/history of",
+          "Peptic ulcer",
+          "Pregnancy",
+          "Lactation",
+          "Concurrent antihypertensives without supervision"
+        ],
+        "pregnancy": "avoid",
+        "narrowTherapeuticIndex": true
+      },
+      "verification": {
+        "status": "pending_expert_review",
+        "reviewedBy": null,
+        "credentials": null,
+        "reviewedAt": null,
+        "lastUpdated": "2024-01-15",
+        "version": 1
+      },
+      "disclaimer": "CRITICAL: Sarpagandha contains reserpine - a potent drug with NARROW THERAPEUTIC INDEX and serious side effects (depression, parkinsonism). This entry is for HISTORICAL/INFORMATIONAL purposes ONLY. Do NOT self-medicate with Sarpagandha. It requires STRICT MEDICAL SUPERVISION. Do not stop or change prescribed antihypertensives without consulting your cardiologist."
+    }
+  ]
+}
