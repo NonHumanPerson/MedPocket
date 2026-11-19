@@ -2,7 +2,7 @@
 
 **Offline-first medication explainer, interaction checker, and Ayurvedic perspective — India-focused, privacy-first.**
 
-[![Build Android](https://github.com/USERNAME/MedPocket/actions/workflows/build-android.yml/badge.svg)](https://github.com/USERNAME/MedPocket/actions/workflows/build-android.yml)
+[![Build Android](https://github.com/NonHumanPerson/MedPocket/actions/workflows/build-android.yml/badge.svg)](https://github.com/NonHumanPerson/MedPocket/actions/workflows/build-android.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.19-blue)](https://flutter.dev)
 
@@ -50,7 +50,7 @@ MedPocket is an **offline-first** Android app that helps you:
 
 ### From GitHub Releases (Recommended)
 
-1. Go to [Releases](https://github.com/USERNAME/MedPocket/releases)
+1. Go to [Releases](https://github.com/NonHumanPerson/MedPocket/releases)
 2. Download the APK for your device architecture:
    - `app-arm64-v8a-release.apk` — most modern phones (64-bit ARM)
    - `app-armeabi-v7a-release.apk` — older 32-bit ARM devices
@@ -182,7 +182,7 @@ MIT License — see [LICENSE](LICENSE)
 
 ## 📧 Contact
 
-For content corrections or safety concerns: [Create an issue](https://github.com/USERNAME/MedPocket/issues) with citations.
+For content corrections or safety concerns: [Create an issue](https://github.com/NonHumanPerson/MedPocket/issues) with citations.
 
 ---
 

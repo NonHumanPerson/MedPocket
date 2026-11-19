@@ -309,7 +309,7 @@ This app is not directed at children under 13.
 6. Changes
 We may update this policy. Continued use constitutes acceptance.
 
-Contact: [your-email@example.com]
+Contact: Report via GitHub Issues at github.com/NonHumanPerson/MedPocket/issues
 ''';
 
   String _termsText() => '''
