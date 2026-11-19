@@ -1,23 +1,20 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:hive/hive.dart';
 
 part 'ayurveda.freezed.dart';
-part 'ayurveda.g.dart';
 
 @freezed
-@HiveType(typeId: 10, adapterName: 'AyurvedicMappingAdapter')
 class AyurvedicMapping with _$AyurvedicMapping {
   const factory AyurvedicMapping({
-    @HiveField(0) required String id,
-    @HiveField(1) required List<String> modernDrugIds,
-    @HiveField(2) List<String>? atcCodes,
-    @HiveField(3) required AyurvedicFormulation formulation,
-    @HiveField(4) required String traditionalUse,
-    @HiveField(5) required String preparationAndDose,
-    @HiveField(6) required EvidenceGrade evidence,
-    @HiveField(7) required SafetyProfile safety,
-    @HiveField(8) required VerificationStatus verification,
-    @HiveField(9) required String disclaimer,
+    required String id,
+    required List<String> modernDrugIds,
+    List<String>? atcCodes,
+    required AyurvedicFormulation formulation,
+    required String traditionalUse,
+    required String preparationAndDose,
+    required EvidenceGrade evidence,
+    required SafetyProfile safety,
+    required VerificationStatus verification,
+    required String disclaimer,
   }) = _AyurvedicMapping;
 
   factory AyurvedicMapping.fromJson(Map<String, dynamic> json) =>
@@ -25,14 +22,13 @@ class AyurvedicMapping with _$AyurvedicMapping {
 }
 
 @freezed
-@HiveType(typeId: 11, adapterName: 'AyurvedicFormulationAdapter')
 class AyurvedicFormulation with _$AyurvedicFormulation {
   const factory AyurvedicFormulation({
-    @HiveField(0) required String nameSanskrit,
-    @HiveField(1) required String nameCommon,
-    @HiveField(1) String? classicalSource,
-    @HiveField(2) String? pharmacopoeiaRef,
-    @HiveField(3) required List<Ingredient> ingredients,
+    required String nameSanskrit,
+    required String nameCommon,
+    String? classicalSource,
+    String? pharmacopoeiaRef,
+    required List<Ingredient> ingredients,
   }) = _AyurvedicFormulation;
 
   factory AyurvedicFormulation.fromJson(Map<String, dynamic> json) =>
@@ -40,12 +36,11 @@ class AyurvedicFormulation with _$AyurvedicFormulation {
 }
 
 @freezed
-@HiveType(typeId: 12, adapterName: 'IngredientAdapter')
 class Ingredient with _$Ingredient {
   const factory Ingredient({
-    @HiveField(0) required String botanical,
-    @HiveField(1) required String part,
-    @HiveField(2) String? dose,
+    required String botanical,
+    required String part,
+    String? dose,
   }) = _Ingredient;
 
   factory Ingredient.fromJson(Map<String, dynamic> json) =>
@@ -53,12 +48,11 @@ class Ingredient with _$Ingredient {
 }
 
 @freezed
-@HiveType(typeId: 13, adapterName: 'EvidenceGradeAdapter')
 class EvidenceGrade with _$EvidenceGrade {
   const factory EvidenceGrade({
-    @HiveField(0) required String grade,
-    @HiveField(1) required String summary,
-    @HiveField(2) required List<Citation> citations,
+    required String grade,
+    required String summary,
+    required List<Citation> citations,
   }) = _EvidenceGrade;
 
   factory EvidenceGrade.fromJson(Map<String, dynamic> json) =>
@@ -66,12 +60,11 @@ class EvidenceGrade with _$EvidenceGrade {
 }
 
 @freezed
-@HiveType(typeId: 14, adapterName: 'CitationAdapter')
 class Citation with _$Citation {
   const factory Citation({
-    @HiveField(0) required String type,
-    @HiveField(1) required String ref,
-    @HiveField(2) String? url,
+    required String type,
+    required String ref,
+    String? url,
   }) = _Citation;
 
   factory Citation.fromJson(Map<String, dynamic> json) =>
@@ -79,14 +72,13 @@ class Citation with _$Citation {
 }
 
 @freezed
-@HiveType(typeId: 15, adapterName: 'SafetyProfileAdapter')
 class SafetyProfile with _$SafetyProfile {
   const factory SafetyProfile({
-    @HiveField(0) required String interactionSeverity,
-    @HiveField(1) required List<String> interactionNotes,
-    @HiveField(2) required List<String> contraindications,
-    @HiveField(3) required String pregnancy,
-    @HiveField(4) @Default(false) bool narrowTherapeuticIndex,
+    required String interactionSeverity,
+    required List<String> interactionNotes,
+    required List<String> contraindications,
+    required String pregnancy,
+    @Default(false) bool narrowTherapeuticIndex,
   }) = _SafetyProfile;
 
   factory SafetyProfile.fromJson(Map<String, dynamic> json) =>
@@ -94,15 +86,14 @@ class SafetyProfile with _$SafetyProfile {
 }
 
 @freezed
-@HiveType(typeId: 16, adapterName: 'VerificationStatusAdapter')
 class VerificationStatus with _$VerificationStatus {
   const factory VerificationStatus({
-    @HiveField(0) required String status,
-    @HiveField(1) String? reviewedBy,
-    @HiveField(2) String? credentials,
-    @HiveField(3) String? reviewedAt,
-    @HiveField(4) required String lastUpdated,
-    @HiveField(5) required int version,
+    required String status,
+    String? reviewedBy,
+    String? credentials,
+    String? reviewedAt,
+    required String lastUpdated,
+    required int version,
   }) = _VerificationStatus;
 
   factory VerificationStatus.fromJson(Map<String, dynamic> json) =>

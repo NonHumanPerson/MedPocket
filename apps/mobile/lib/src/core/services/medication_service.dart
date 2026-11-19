@@ -1,5 +1,6 @@
 import 'dart:async';
 import '../models/medication.dart';
+import '../models/ayurveda.dart';
 import 'data_loader.dart';
 import 'interaction_checker.dart';
 
@@ -56,7 +57,7 @@ class MedicationService {
 
   /// Check if a drug is narrow therapeutic index
   bool isNarrowTherapeuticIndex(String drugId) {
-    return isNarrowTherapeuticIndexStatic(drugId);
+    return isNarrowTherapeuticIndex(drugId);
   }
 
   /// Get Ayurvedic mappings for a drug

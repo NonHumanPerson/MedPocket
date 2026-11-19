@@ -274,6 +274,18 @@ class AppLocalizations {
   String get cancel => t('cancel');
   String get loading => t('loading');
   String get error => t('error');
+
+  /// Any translation key not declared above is resolved dynamically via [t].
+  /// This keeps screens clean while still falling back to the key itself.
+  @override
+  dynamic noSuchMethod(Invocation invocation) {
+    if (invocation.isGetter) {
+      final symbol = invocation.memberName.toString();
+      final match = RegExp(r'"([^"]+)"').firstMatch(symbol);
+      if (match != null) return t(match.group(1)!);
+    }
+    return super.noSuchMethod(invocation);
+  }
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

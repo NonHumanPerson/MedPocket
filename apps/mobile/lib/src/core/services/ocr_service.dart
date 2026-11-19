@@ -70,9 +70,10 @@ class OcrService {
     
     final results = <MedicationMonograph>[];
     for (final id in drugIds) {
-      final med = database.firstWhere((m) => m.id == id, orElse: () => null);
-      if (med != null) {
-        results.add(med);
+      try {
+        results.add(database.firstWhere((m) => m.id == id));
+      } catch (_) {
+        // Drug id not present in the offline database; skip it.
       }
     }
     

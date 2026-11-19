@@ -4,7 +4,7 @@
 
 [![Build Android](https://github.com/NonHumanPerson/MedPocket/actions/workflows/build-android.yml/badge.svg)](https://github.com/NonHumanPerson/MedPocket/actions/workflows/build-android.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Flutter](https://img.shields.io/badge/Flutter-3.19-blue)](https://flutter.dev)
+[![Flutter](https://img.shields.io/badge/Flutter-3.50-blue)](https://flutter.dev)
 
 ## 📱 Overview
 
@@ -61,7 +61,7 @@ MedPocket is an **offline-first** Android app that helps you:
 ### From Source
 
 ```bash
-# Prerequisites: Flutter 3.19+, Android SDK
+# Prerequisites: Flutter 3.50+, Android SDK
 cd apps/mobile
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs
